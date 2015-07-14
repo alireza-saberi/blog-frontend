@@ -329,11 +329,6 @@ article .readmore:hover{
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-
-<<<<<<< HEAD
-@media only screen and (min-width: 35em) {
-
-=======
 @media only screen and (max-width: 900px){
 	#branding h1{
 		display:none;
@@ -384,7 +379,6 @@ article .readmore:hover{
 		float:none;
 		width:87%;
 	}
->>>>>>> 12e71e34b830438a5154aa7198ae7c9d983b175a
 }
 
 @media print,
@@ -393,7 +387,6 @@ article .readmore:hover{
        (min-resolution: 120dpi) {
 
 }
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */

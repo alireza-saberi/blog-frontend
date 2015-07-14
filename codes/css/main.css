@@ -330,8 +330,61 @@ article .readmore:hover{
    Media Queries
    ========================================================================== */
 
+<<<<<<< HEAD
 @media only screen and (min-width: 35em) {
 
+=======
+@media only screen and (max-width: 900px){
+	#branding h1{
+		display:none;
+	}
+	
+	#branding{
+		width:20%;
+	}
+	
+	#main-nav{
+		width:80%;
+	}
+	
+	#content{
+		float:none;
+		width:89%;
+	}
+	
+	#sidebar{
+		float:none;
+		width:100%;
+	}
+	
+	#main-footer  .footer-left,#main-footer .footer-right{
+		float:none;
+		width:100%;
+	}
+	
+	#main-footer .footer-nav{
+		float:none;
+		width:100%;
+	}
+	
+	#main-footer .copy{
+		text-align:center;
+	}
+}
+
+@media only screen and (max-width: 580px){
+	#main-nav li{
+		padding:3px 3px 0 3px;
+		margin:0 5px;
+		font-size:13px;
+		list-style:none;
+	}
+	
+	#content{
+		float:none;
+		width:87%;
+	}
+>>>>>>> 12e71e34b830438a5154aa7198ae7c9d983b175a
 }
 
 @media print,
